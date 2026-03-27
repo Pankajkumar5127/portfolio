@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pankaj Kumar | Portfolio</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <nav class="navbar">
+        <h2>Pankaj Kumar</h2>
+        <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="menu-toggle">☰</div>
+    </nav>
+</header>
+
+<section class="hero">
+    <h1>Hi, I'm Pankaj</h1>
+    <h2><span id="typing"></span></h2>
+    <div class="buttons">
+        <a href="#contact" class="btn">Hire Me</a>
+        <a href="#" class="btn outline">Download Resume</a>
+    </div>
+</section>
+
+<section id="about" class="fade-in">
+    <h2>About Me</h2>
+    <p>
+        Cloud-focused IT professional with 6+ years of experience in operations,
+        system optimization, and frontend development. Azure certified with strong
+        skills in networking, automation, and modern web technologies.
+    </p>
+</section>
+
+<section id="skills" class="fade-in">
+    <h2>Skills</h2>
+    <div class="skills-grid">
+        <span>Azure</span>
+        <span>Cloud</span>
+        <span>Networking</span>
+        <span>HTML</span>
+        <span>CSS</span>
+        <span>JavaScript</span>
+        <span>React</span>
+        <span>Python</span>
+        <span>MongoDB</span>
+    </div>
+</section>
+
+<section id="projects" class="fade-in">
+    <h2>Projects</h2>
+    <div class="projects">
+
+        <div class="card">
+            <h3>Tic Tac Toe</h3>
+            <p>JS-based interactive game with win logic.</p>
+        </div>
+
+        <div class="card">
+            <h3>Currency Converter</h3>
+            <p>Live API-based converter.</p>
+        </div>
+
+        <div class="card">
+            <h3>Stone Paper Scissors</h3>
+            <p>Game with animations and scoring system.</p>
+        </div>
+
+    </div>
+</section>
+
+<section id="contact" class="fade-in">
+    <h2>Contact</h2>
+    <p>Email: kumarpankaj5127@outlook.com</p>
+    <p>
+        <a href="https://github.com/Pankajkumar5127">GitHub</a> |
+        <a href="https://www.linkedin.com/in/pankaj-kumar-c3t">LinkedIn</a>
+    </p>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
